@@ -1,0 +1,128 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+  /*  font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif; 
+    width : 1532px */
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+      font-family: 'Roboto', sans-serif;
+  }
+
+  body {
+      width: 100vw;
+      height: 100vh;
+      background-color: rgb(172, 217, 249);
+      color: white;
+  }
+
+  /* * * * * * * * * * * navbar * * * * * * * * * * */
+  .navbar {
+      display: flex;
+      height: 60px;
+      background-color: #131921;
+
+  }
+
+  .navbar-left {
+      display: flex;
+      height: 100%;
+      gap: 5px;
+
+  }
+
+  .navbar-left .logo {
+      display: flex;
+      height: 100%;
+      margin: 0 10px;
+      padding: 0 5px;
+      align-items: center;
+  }
+
+  .navbar-left .logo img {
+      height: 28px;
+  }
+
+
+  .navbar-left .logo span {
+      color: white;
+      margin-bottom: 8px;
+  }
+
+  /* * * * * * * * * * * ------ * * * * * * * * * * */
+
+
+
+  /* * * * * * *  location-bar  * * * * * * * */
+  .navbar-left .location-bar {
+      display: flex;
+      align-items: center;
+      color: white;
+      padding: 0 5px;
+  }
+
+  .navbar-left .location-bar .location {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .navbar-left .location-bar .location .deliver-to {
+      color: #bebebf;
+      font-size: 12px;
+  }
+
+
+
+  .navbar-left .location-bar .location .location-add {
+      font-size: 14px;
+      font-weight: 600;
+  }
+
+  .navbar-left .location-bar .location-icon img {
+      height: 20px;
+      margin-top: 12px;
+      margin-right: 3px;
+  }
+
+  /* * * * * * * * * * * ------- * * * * * * * * * * */
+
+
+
+  /* * * * * * * * * * * navbar-center * * * * * * * * * * */
+
+.navbar-center {
+    display: flex;
+    background-color: green;
+}
+
+.search-bar {
+    display: flex;
+}
+
+  /* * * * * * * * * * * navbar * * * * * * * * * * */
+  /* * * * * * * * * * * navbar * * * * * * * * * * */
+
+
+
+
+
+
+
+
+  /* * * * * * * * * * * navbar * * * * * * * * * * */
+  /* * * * * * * * * * * navbar * * * * * * * * * * */
+  /* * * * * * * * * * * navbar * * * * * * * * * * */
+  /* * * * * * * * * * * navbar * * * * * * * * * * */
+  /* * * * * * * * * * * navbar * * * * * * * * * * */
+  /* * * * * * * * * * * navbar * * * * * * * * * * */
+  /* * * * * * * * * * * navbar * * * * * * * * * * */
+  /* * * * * * * * * * * navbar * * * * * * * * * * */
+  /* * * * * * * * * * * navbar * * * * * * * * * * */
+  /* * * * * * * * * * * navbar * * * * * * * * * * */
+  /* * * * * * * * * * * navbar * * * * * * * * * * */
+  /* * * * * * * * * * * navbar * * * * * * * * * * */
+  /* * * * * * * * * * * navbar * * * * * * * * * * */
+  /* * * * * * * * * * * navbar * * * * * * * * * * */
+  /* * * * * * * * * * * navbar * * * * * * * * * * */
