@@ -44,6 +44,7 @@
 
   .navbar-left .logo:hover {
       border: 1px solid white;
+      cursor: pointer;
   }
 
   .navbar-left .logo img {
@@ -66,6 +67,7 @@
 
   .navbar-left .location-bar:hover {
       border: 1px solid white;
+      cursor: pointer;
   }
 
   .navbar-left .location-bar .location {
@@ -104,7 +106,6 @@
 
 
   .navbar-center:hover {
-      /* border: 2px solid #ffa32a; */
       border-radius: 5px;
   }
 
@@ -121,20 +122,20 @@
       border-radius: 5px 0 0 5px;
       width: 50px;
       gap: 10px;
+      cursor: pointer;
       border-right: 1px solid rgb(201, 201, 201);
-
   }
+.search-bar .all-category:hover {
+    background-color: #c7c6c6;
+    color: black;
+}
 
   .search-bar .all-category .all-text {
       font-size: 12px;
   }
-
   .search-bar .all-category img {
       height: 08px;
   }
-
-
-
   .search-bar .search-icon {
       display: flex;
       align-items: center;
@@ -142,8 +143,11 @@
       width: 50px;
       background-color: #febd69;
       border-radius: 0 5px 5px 0;
-
   }
+.search-bar .search-icon:hover {
+    background-color: #f0a543;
+   cursor: pointer;
+}
 
   .search-bar .search-icon img {
       height: 20px;
@@ -179,6 +183,7 @@
 
   .navbar-right .language-bar:hover {
       border: 1px solid white;
+      cursor: pointer;
   }
 
   .navbar-right .language-bar .language-sec {
@@ -217,6 +222,7 @@
 
   .accounts-bar:hover {
       border: 1px solid white;
+      cursor: pointer;
   }
 
   .accounts-bar .line-1 {
@@ -244,6 +250,7 @@
   }
   .orders-bar:hover {
       border: 1px solid white;
+      cursor: pointer;
   }
 
   .orders-bar .line-1 {
@@ -264,6 +271,7 @@
 
   .carts:hover {
       border: 1px solid white;
+      cursor: pointer;
   }
 
   .carts .cart-img {
