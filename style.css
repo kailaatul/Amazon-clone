@@ -116,6 +116,12 @@ body {
 
 .search-bar .all-category {
     display: flex;
+    background-color: #e6e6e6;
+    border-radius: 5px 0 0 5px;
+    border-right: 1px solid rgb(201, 201, 201);
+}
+.all-category-hub {
+    display: flex;
     align-items: center;
     justify-content: center;
     background-color: #e6e6e6;
@@ -123,9 +129,7 @@ body {
     width: 50px;
     gap: 10px;
     cursor: pointer;
-    border-right: 1px solid rgb(201, 201, 201);
 }
-
 .search-bar .all-category:hover {
     background-color: #c7c6c6;
     color: black;
@@ -137,6 +141,34 @@ body {
 
 .search-bar .all-category img {
     height: 08px;
+}
+
+/* * * * * * drop down * * * * *  */
+.all-category-drop-down {
+    position: absolute;
+    margin-top: 39px;
+    width: 210px;
+    height: 500px;
+    overflow: scroll;
+    border: 10px solid red;
+    border-radius: 5px;
+    color: black;
+    background-color: #e4e4e4;
+    cursor:default;
+    border: 1px solid rgb(162, 162, 162);
+    /* display: none; */
+}
+.all-category-drop-down ul li {
+    padding-bottom: 7px;
+}
+.all-category-drop-down ul li:hover{
+    background-color: #d6d6d6;
+}
+
+.all-search-bar {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .search-bar .search-icon {
@@ -316,11 +348,8 @@ body {
     align-items: center;
     justify-content: center;
     position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.479);
+    display: none;
+    
 }
 
 .choose-location-box {
@@ -333,6 +362,8 @@ body {
     background-color: #ffffff;
     border-radius: 10px;
     overflow: hidden;
+    border: 1px solid #d5d9d9;
+    box-shadow: 0 0 14px rgba(15,17,17,0.5);
 }
 
 .choose-location-title {
@@ -408,6 +439,7 @@ body {
     outline: none;
     padding: 5px 10px;
     border-radius: 4px;
+    box-shadow: inset 0 0 3px rgb(198, 198, 198);
 }
 
 
@@ -418,8 +450,12 @@ body {
     height: 30px;
     width: 100px;
     border-radius: 8px;
+    box-shadow: 1px 1px 3px rgb(198, 198, 198);
 }
-
+.choose-location-bottom .pincode-apply:hover {
+    cursor: pointer;
+    background-color: #efefef ;
+}
 
 
 
