@@ -4,5 +4,4 @@ function homepage() {
     window.location.href="./index.html";
 }
 
-//  choose location popup
-
+//  all category option below
