@@ -5,3 +5,7 @@ function homepage() {
 }
 
 //  all category option below
+
+function allCateShow () {
+    
+}
