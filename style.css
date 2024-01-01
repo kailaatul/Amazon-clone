@@ -553,35 +553,53 @@ body {
     width: 100%;
 }
 
-.cont-body .first-raw .offer-img {
-    position: absolute;
+.cont-body .first-raw {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
-.cont-body .first-raw .offer-img img {
+
+.cont-body .first-raw .bg-images .offer-img {
+    position: absolute;
+    opacity: 0.5;
+}
+
+.cont-body .first-raw .bg-images .offer-img img {
     width: 100%;
     padding: 0 20px;
 }
 
-.cont-body .first-raw .first-raw-simbol {
+.cont-body .first-raw .bg-images .first-raw-simbol {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 260px;
+    width: 100%;
     position: relative;
-    
+
 }
 
-.cont-body .first-raw .first-raw-simbol img {
+.cont-body .first-raw .bg-images .first-raw-simbol img {
     height: 40px;
     margin: 0 30px;
 }
+
 /* * * * * * fourbyfour boxes * * * * *  */
 
+
+.first-raw-line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
 .forbyfour {
+    display: flex;
     position: relative;
     height: 420px;
     width: 350px;
-    background-color: rgb(194, 67, 67);
-    border: 5px solid black;
+    background-color: rgb(255, 255, 255);
 }
 
 .forbyfour-box {
@@ -589,43 +607,62 @@ body {
     flex-direction: column;
     /* flex-wrap: wrap; */
     padding: 20px;
-    border: 2px solid blueviolet;
 }
 
 .forbyfour-box .heading {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
+    color: black;
 }
 
 .four-boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    width: 310px;
+    justify-content: space-between;
+    align-items: center;
     gap: 10px;
+    overflow: hidden;
+    margin-bottom: 5px;
 }
 
 
 .box {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 140px;
     height: 140px;
-    border: 1px solid red;
 }
 
 .box img {
-    height: 120px;
-    left: -9999px;
-    right: -9999px;
-    max-width: none;
-}
-.box span {
-    margin-top: 10px;
-    height: 40px;
-    width: 100%;
+    height: 100px;
+    width: 150px;
+    object-fit: cover;
+    overflow: hidden;
 }
 
+.box span {
+    height: 40px;
+    width: 100%;
+    font-size: 11px;
+    margin-top: 2px;
+    color: #000000;
+    line-height: 15px;
+    letter-spacing: 0.6px;
+}
+
+.exploreall {
+
+    display: flex;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
 
 
 
