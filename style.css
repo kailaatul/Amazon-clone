@@ -159,6 +159,7 @@ body {
     cursor: default;
     border: 1px solid rgb(162, 162, 162);
     display: none;
+    z-index: 1;
 }
 
 .all-category-drop-down ul li {
@@ -356,7 +357,7 @@ body {
     justify-content: center;
     position: fixed;
     display: none;
-
+    z-index: 2;
 }
 
 .choose-location-box {
@@ -561,7 +562,6 @@ body {
 
 .cont-body .first-raw .bg-images .offer-img {
     position: absolute;
-    opacity: 0.5;
 }
 
 .cont-body .first-raw .bg-images .offer-img img {
