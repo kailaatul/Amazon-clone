@@ -8,11 +8,10 @@ function homepage() {
 
 //  all category option below
 
+
 function allCateShow() {
 
 }
-
-console.log("This is fired")
 var allButton = document.getElementById("allbutton");
 
 allButton.onclick =  function(e){
@@ -29,8 +28,6 @@ allButton.onclick =  function(e){
     e.stopPropagation();
     
 };
-
-console.log(allButton);
 
 var locationbutton = document.getElementById("locationbutton");
 locationbutton.onclick = locationniclick;
